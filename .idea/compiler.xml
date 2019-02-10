@@ -2,14 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="com.tschuchort.kotlinelements.annotation-test.main" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.annotation-test.test" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.compile-testing.main" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.compile-testing.test" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.kotlinelements.main" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.kotlinelements.test" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.test-annot-processor.main" target="1.10" />
-      <module name="com.tschuchort.kotlinelements.test-annot-processor.test" target="1.10" />
+      <module name="com.github.tschuchortdev.annotation-test.main" target="11" />
+      <module name="com.github.tschuchortdev.annotation-test.test" target="11" />
+      <module name="com.github.tschuchortdev.compile-testing.main" target="11" />
+      <module name="com.github.tschuchortdev.compile-testing.test" target="11" />
+      <module name="com.github.tschuchortdev.kotlinelements.main" target="11" />
+      <module name="com.github.tschuchortdev.kotlinelements.test" target="11" />
+      <module name="com.github.tschuchortdev.test-annot-processor.main" target="11" />
+      <module name="com.github.tschuchortdev.test-annot-processor.test" target="11" />
+      <module name="com.tschuchort.kotlinelements.annotation-test.main" target="11" />
+      <module name="com.tschuchort.kotlinelements.annotation-test.test" target="11" />
+      <module name="com.tschuchort.kotlinelements.compile-testing.main" target="11" />
+      <module name="com.tschuchort.kotlinelements.compile-testing.test" target="11" />
+      <module name="com.tschuchort.kotlinelements.kotlinelements.main" target="11" />
+      <module name="com.tschuchort.kotlinelements.kotlinelements.test" target="11" />
+      <module name="com.tschuchort.kotlinelements.test-annot-processor.main" target="11" />
+      <module name="com.tschuchort.kotlinelements.test-annot-processor.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
