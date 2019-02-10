@@ -17,7 +17,6 @@ allprojects {
     apply plugin: 'idea'
     apply plugin: 'maven'
 
-    group 'com.github.tschuchortdev'
     version '1.0-SNAPSHOT'
 }
 
@@ -26,6 +25,8 @@ subprojects {
     apply plugin: 'kotlin-kapt'
     apply plugin: "kotlin-allopen"
     apply plugin: "kotlin-noarg"
+
+    group 'com.github.tschuchortdev'
 
     repositories {
         mavenCentral()

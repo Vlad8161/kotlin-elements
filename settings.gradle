@@ -1,8 +1,12 @@
 rootProject.name = 'kotlinelements'
 
-include 'lib'
-findProject(':lib')?.name = 'kotlinelements'
 include 'compile-testing'
+
+// exclude lib in this branch
+if (!System.env.JITPACK) {
+    include 'lib'
+    findProject(':lib')?.name = 'kotlinelements'
+}
 
 if (!System.env.JITPACK) {
     include 'test-annot-processor'
