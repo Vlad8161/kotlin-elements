@@ -19,3 +19,8 @@ dependencies {
 
     testImplementation "org.javassist:javassist:3.24.1-GA"
 }
+
+compileKotlin {
+    sourceCompatibility = JavaVersion.VERSION_1_9
+    targetCompatibility = JavaVersion.VERSION_1_9
+}

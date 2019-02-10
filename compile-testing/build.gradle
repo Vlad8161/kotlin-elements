@@ -9,3 +9,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.11"
     implementation "org.jetbrains.kotlin:kotlin-annotation-processing-embeddable:1.3.11"
 }
+
+compileKotlin {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
